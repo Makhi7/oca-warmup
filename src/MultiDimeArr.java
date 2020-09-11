@@ -2,22 +2,21 @@ public class MultiDimeArr {
 
     public static void main(String[] args) {
 
-        int[][] multiArr = {{2, 4, 6, 8, 10, 12, 14, 16, 18, 20}, {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}};
+        int[][] multiArr = {{2, 4, 6, 8, 10,}, {12, 14, 16, 18, 20}};
 
-        for (int x = 0; x < multiArr.length; x++) {
+        System.out.println("MultiDimeArr printing");
+        for (int x = 0; x < 2; x++) {
+            for (int i = 0; i < 5; i++) {
+                int val1 = 0;
+                int val2 = 0;
 
-       /*     int mThree = 0;
-            int mFive  = 0;
-            multiArr[0][2] = mThree;
-            multiArr[0][5] = mThree;
-            multiArr[0][8] = mThree;
+               // if(i == val1 % 5 && i == val2 % 3) {
 
-            multiArr[1][4] = mFive;
-            multiArr[1][9] = mFive;
-            System.out.println("The array " + multiArr[x]);
-                                                                */
+              // }
+                System.out.println(multiArr[x][i]);
+         }
 
         }
     }
-
 }
+

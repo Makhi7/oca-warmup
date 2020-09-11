@@ -8,7 +8,9 @@ public class InvestmentBank {
         return accountbalance;
     }
 
-    InvestmentBank (){
+    InvestmentBank (int balance){
+
+        this.accountbalance = balance;
 
     }
 }
